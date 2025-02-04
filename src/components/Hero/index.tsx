@@ -1,6 +1,7 @@
 import React from 'react'
-import { HeroContainer, IntroOverlay, IntroPosition } from './style'
+import { Button, HeroContainer, IntroOverlay, IntroPosition } from './style'
 import Nav from '../Nav'
+
 
 function Hero() {
   return (
@@ -13,8 +14,9 @@ function Hero() {
         <h1>I'm Marcos Sanchis.</h1>
         <IntroPosition>
 	   	  		<span>Front-end Developer</span>
-	   	  		<span>UI/UX Designer</span> 
+	   	  		<span>Mobile Developer</span> 
 	   	  </IntroPosition>
+        <Button>More About Me</Button>
         
       </div>
     </HeroContainer>
